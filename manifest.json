@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "crickupdate",
+    "version": "1.0.0",
+    "description": "Best cricket extension in the world",
+    "author": "Subhra Jyoti Baroi",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Cricket Updates"
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "options_page": "options.html",
+    "background": {
+        "service_worker": "service-worker.js",
+        "type": "module"
+    }
+}
